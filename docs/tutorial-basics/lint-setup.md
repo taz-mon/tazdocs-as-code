@@ -15,11 +15,11 @@ sudo snap install vale
 
 ```bash
 # Install textlint globally
-# Note that you will see some warnings. These are just npm being verbose
-# About outdated dependencies in the ecosystem. It is safe to proceed.
 npm install -g textlint
 
 # Install some useful textlint plugins
+# Note that you will see some warnings. These are just npm being verbose
+# About outdated dependencies in the ecosystem. It is safe to proceed.
 npm install -g textlint-rule-preset-smarthr
 npm install -g textlint-rule-preset-ja-technical-writing
 npm install -g textlint-rule-common-misspellings
@@ -27,25 +27,31 @@ npm install -g textlint-rule-write-good
 npm install -g textlint-rule-alex
 ```
 
-## Step 3: Set up Vale (following the tutorial)
+## Step 3: Set up Vale
 
+Create a folder for linter configurations from which your project will perform reviews to spot errors and make suggestions:
 ```bash
 # Create the styles directory in your project root
 cd ~/projects/tazdocs-as-code
-mkdir styles
+mkdir lint-styles
+```
 
+Download style guide against which your project will use:
+```bash 
 # Download Microsoft style guide
-wget https://github.com/errata-ai/Microsoft/releases/download/v0.7.0/Microsoft.zip
+wget https://github.com/errata-ai/Microsoft/releases/download/v0.14.2/Microsoft.zip
 unzip Microsoft.zip -d styles/
 rm Microsoft.zip
 ```
 
 Create `.vale.ini` in your project root:
 ```bash
-nano .vale.ini
+# Using VS Code, in your project root create the file
+code .vale.ini
 ```
 
-Add this content:
+In the new file, copy this content:
+
 ```ini
 StylesPath = styles
 MinAlertLevel = suggestion
@@ -53,12 +59,15 @@ MinAlertLevel = suggestion
 [*.md]
 BasedOnStyles = Vale, Microsoft
 ```
+After you save the changes, your Vale liunter is ready to review your content!
 
 ## Step 4: Set up textlint
 
 Create `.textlintrc` in your project root:
+
 ```bash
-nano .textlintrc
+# Using VS Code, in your project root create the file
+code .textlintrc
 ```
 
 Add this configuration:
@@ -73,7 +82,7 @@ Add this configuration:
       "so": true,
       "thereIs": true,
       "weasel": true,
-      "adverb": true,
+   C   "adverb": true,
       "tooWordy": true,
       "cliches": true
     },
@@ -89,10 +98,20 @@ Add this configuration:
 ```bash
 # Test Vale
 vale docs/intro.md
+```
 
+Follow the output if it finds errors. If the file is clean, you see:
+```code
+✔ 0 errors, 0 warnings and 0 suggestions in stdin.
+```
+
+# Test textlint
+```bash
 # Test textlint
 textlint docs/intro.md
 ```
+
+Follow the output if it finds errors. If the file is clean, it just returns the prompt.
 
 ## Step 6: Update your GitHub Actions workflow
 
