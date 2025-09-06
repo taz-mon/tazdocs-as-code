@@ -15,6 +15,8 @@ sudo snap install vale
 
 ```bash
 # Install textlint globally
+# Note that you will see some warnings. These are just npm being verbose
+# About outdated dependencies in the ecosystem. It is safe to proceed.
 npm install -g textlint
 
 # Install some useful textlint plugins
