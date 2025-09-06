@@ -2,46 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Why docs-as-code?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Documentation-as-code is a simple process to make change locally and check them out before you push them to your docs live site. To accomplish this, you need an IDE, a static site generator, a Git repository, CI/CD to set up workflows, and a hosting platform. 
 
-## Getting Started
+## Why do I, a technical writer, use docs-as-code?
 
-Get started by **creating a new site**.
+To impress my friends and family by typing something in a window of my computer and showing off how it makes the letters appear like magic on the internet. I call it "Command-line and Teller".
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Use the site as my resume
 
-### What you'll need
+I created this site using Docusaraus, by following this great tutorial, [How to Set Up Documentation as Code with Docusaurus and GitHub Actions](https://www.freecodecamp.org/news/set-up-docs-as-code-with-docusaurus-and-github-actions/). If you are curious, you should read it to learn about tools many technical writers kinda should know about if they want to participate in today's technical writing economy. The field is changing and being familiar wiht static doc site generators seems not only important but I believe it brings up your tech tools game substantially.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+You may not be using it at your current job, but if you want to find newer tech writing roles, it seems pretty important. And trying these tools that are easy to experiment with shows you aren't sitting back, relying on old technology to document the stuff used to be standard but isn't anymore.
 
-## Generate a new site
+## Linux computers
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This is a great place to get started with a native Linux computer>> [System76 logo](https://system76.com/). Something to think about. In a day or two you'll wonder why you hesitated.
