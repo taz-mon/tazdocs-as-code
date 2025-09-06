@@ -1,0 +1,19 @@
+{
+  "filters": {},
+  "rules": {
+    "common-misspellings": true,
+    "write-good": {
+      "passive": false,
+      "illusion": true,
+      "so": true,
+      "thereIs": true,
+      "weasel": true,
+      "adverb": true,
+      "tooWordy": true,
+      "cliches": true
+    },
+    "alex": {
+      "allow": []
+    }
+  }
+}
