@@ -115,7 +115,8 @@ Follow the output if it finds errors. If the file is clean, it just returns the 
 
 ## Step 6: Update your GitHub Actions workflow
 
-Edit `.github/workflows/vale-linter.yml` to include both linters:
+This step assumes you completed the [Step 8: Set Up a Documentation Workflow Using GitHub Actions] 
+section in your project where GitHub Actions looks for automation workflows.  In this case, edit `.github/workflows/vale-linter.yml` to include both linters so this file will run your both linters automatically when you push code to GitHub:
 
 ```yaml
 name: Documentation Linting
