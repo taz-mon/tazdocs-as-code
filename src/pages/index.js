@@ -47,7 +47,7 @@ export default function Home() {
               <div className="text--center padding-horiz--md">
                 <h3>📄 About This Site</h3>
                 <p>Learn how I built this documentation site using Docusaurus, GitHub Actions, and docs-as-code principles.</p>
-                <Link to="/docs/my-docs/about-this-site">
+                <Link to="/docs/intro">
                   Read More →
                 </Link>
               </div>
