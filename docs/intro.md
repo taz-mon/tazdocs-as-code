@@ -16,7 +16,7 @@ To impress my friends and family by typing something in a window of my computer 
 
 I created this site using Docusaraus, by following this great tutorial, [How to Set Up Documentation as Code with Docusaurus and GitHub Actions](https://www.freecodecamp.org/news/set-up-docs-as-code-with-docusaurus-and-github-actions/). Follow it to learn about this and related tools which technical writers can explore to learn how to adopt to today's technical writing economy. The field is changing and being familiar with static doc site generators seems important. I believe it brings up your tech tools game.
 
-You may not be using it at your current job, but if you want to find newer tech writing roles, it seems important. And trying these tools shows that you aren't sitting back, relying on old technology to document the today's technology used to be standard but isn't anymore.
+You may not be using it at your current job, but if you want to find newer tech writing roles, you should be on the lookout for challenges like this. Trying these tools shows that you aren't sitting back, relying on old technology to document the today's technology that used to be the standard but no longer is.
 
 ## Linux computers
 

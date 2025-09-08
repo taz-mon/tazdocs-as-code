@@ -106,7 +106,7 @@ const config = {
           //changing this for now to just point to my resume
           to: '/docs/my-docs/resume',
           position: 'left',
-          label: 'Resume and writing samples'
+          label: 'Resume and writing samples',
 
           //  type: 'docSidebar',
           //  sidebarId: 'tutorialSidebar',
