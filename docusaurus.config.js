@@ -127,11 +127,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'My links',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Resume',
+                to: '/docs/my-docs/resume',
+              },
+              {
+                label: 'Samples',
+                to: '/docs/my-docs/writing-samples',
               },
             ],
           },
