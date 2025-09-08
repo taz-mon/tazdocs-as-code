@@ -69,6 +69,7 @@
 
 /* Dark mode adjustments */
 [data-theme='dark'] {
+  /* Primary colors - softer blues for dark mode */
   --ifm-color-primary: #4A90E2;
   --ifm-color-primary-dark: #3A80D2;
   --ifm-color-primary-darker: #2A70C2;
@@ -76,15 +77,52 @@
   --ifm-color-primary-light: #5AA0F2;
   --ifm-color-primary-lighter: #6AB0F2;
   --ifm-color-primary-lightest: #7AC0F2;
+
+  /* Better dark backgrounds */
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #2a2a2a;
   
-  /* Dark mode background with Patriots navy inspiration */
-  --ifm-background-color: #0f1419;
-  --ifm-background-surface-color: #1a1f2e;
+  /* Adjust team colors for dark mode visibility */
+  --patriots-navy: #4A90E2;     /* Lighter blue instead of dark navy */
+  --mclaren-orange: #FF9500;    /* Brighter orange */
+  --mercedes-teal: #20B2AA;     /* Keep the teal */
+  --patriots-red: #FF6B7A;      /* Softer red */
+  --patriots-silver: #C0C0C0;   /* Brighter silver */
   
-  /* Adjust accent colors for dark mode */
-  --mclaren-orange: #FF9500;
-  --mercedes-teal: #20B2AA;
-  --patriots-red: #FF4757;
+  /* Text colors for dark mode */
+  --ifm-color-content: #e3e3e3;
+  --ifm-color-emphasis-600: #b0b0b0;
+}
+
+/* Fix header visibility in dark mode */
+[data-theme='dark'] h1, 
+[data-theme='dark'] h2, 
+[data-theme='dark'] h3, 
+[data-theme='dark'] h4, 
+[data-theme='dark'] h5, 
+[data-theme='dark'] h6,
+[data-theme='dark'] .markdown h1, 
+[data-theme='dark'] .markdown h2, 
+[data-theme='dark'] .markdown h3, 
+[data-theme='dark'] .markdown h4, 
+[data-theme='dark'] .markdown h5, 
+[data-theme='dark'] .markdown h6 {
+  color: #e3e3e3 !important; /* Light gray for good contrast */
+}
+
+/* Fix H1 border in dark mode */
+[data-theme='dark'] h1 {
+  border-bottom: 3px solid var(--mclaren-orange);
+  color: #ffffff !important; /* Pure white for H1 */
+}
+
+/* Fix H2 gradient bar in dark mode */
+[data-theme='dark'] h2::before {
+  background: linear-gradient(to bottom, var(--mercedes-teal), var(--mclaren-orange));
+}
+[data-theme='dark'] .navbar {
+  background: var(--ifm-background-surface-color);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
 }
 
 /* Typography Enhancements */
