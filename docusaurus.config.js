@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://tazdocs.github.io/',
+  url: 'https://taz-man.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/tazdocs-as-code',
@@ -80,27 +80,49 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+
+      // Taz added this from Claude>
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      // Taz added this from Claude>
+      metadata: [
+        {name: 'keywords', content: 'documentation, technical writing, f1, patriots'},
+        {name: 'description', content: 'Professional technical documentation with F1-inspired design'},
+      ],
+      
+      // end of Taz addition
+      // Taz new nav bar
       navbar: {
-        title: 'Taz docs-as-code laboratory',
+        title: 'My Technical Documentation',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Taz Docs Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+         {
+          //changing this for now to just point to my resume
+          to: '/docs/my-docs/resume',
+          position: 'left',
+          label: 'Resume and writing samples'
+
+          //  type: 'docSidebar',
+          //  sidebarId: 'tutorialSidebar',
+          //  position: 'left',
+          //  label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'TDB-Blog', position: 'right'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/taz-mon/tazdocs-as-code',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
+      //end of navbar customization
+
       footer: {
         style: 'dark',
         links: [
