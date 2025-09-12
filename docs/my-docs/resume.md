@@ -89,6 +89,8 @@ Worked with key staff and logged into test systems to document hardware virtuali
 
 **Claude Code in Action**, Anthropic (2025) - [Verification](https://verify.skilljar.com/c/85m3vt6a6he9) - Node.js, modern development workflows, AI-assisted coding
 
+**REST API Design, Development & Management**, Udemy (2025) - [Certificate](https://www.udemy.com/share/101ZME3@vpGNg1fpfsu_ou2_8NLR8HRfgyQTig7LnwIyO-GmnlDb9iWqJKnMeC82Zv4NgEqZcw==/) - Hands on training for understanding how to use REST APIs and manipulating data using API calls; designing APIs using Swagger; general Security basics
+
 **Learn OAuth 2.0**, Udemy (2025) - [Certificate](https://www.udemy.com/share/10223M3@6136TThR8PDraZtohAo2aDx2q-GM2pFoQDXkXeoKaB660enPHBF2IzS00dfRkr1e_A==/) - Authentication and authorization protocols
 
 **Python Programming Course**, HarvardX CS50P CS50's Introduction to Programming with Python, in-progress - developing Python scripting and automation skills with focus on data processing and API integration.
