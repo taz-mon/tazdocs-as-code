@@ -10,7 +10,7 @@
 
 ## Summary
 
-Change-embracing, investigative principal technical writer with extensive lead-writer experience creating user-focused documentation for complex enterprise software platforms serving diverse audiences:
+Curious, research-oriented technical writer with extensive lead-writer experience creating user-focused documentation for complex enterprise software platforms serving diverse audiences:
 
 - Created comprehensive technical documentation for data-centric platforms, covering database configurations, Kafka-based data stream processing, and cloud deployment workflows for software engineering audiences.
 - Applied information architecture principles to create a set of Kubernetes deployment configuration documentation (including OpenShift) using PR-based peer reviews for developers. Personally deployed and tested these Kubernetes configurations on multiple Kubernetes platforms (AKS, EKS, GKE) to verify documentation technical accuracy before publication.
