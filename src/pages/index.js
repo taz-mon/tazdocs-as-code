@@ -54,8 +54,7 @@ export default function Home() {
       <main>
           <section className="container margin-vert--lg">
             <div className="row">
-              <div className="col col--2"></div>
-              <div className="col col--2">
+              <div className="col col--3">
                 <div className="text--center padding-horiz--md">
                   <h3>📄 About This Site</h3>
                   <p>Learn how I built this documentation site using Docusaurus, GitHub Actions, and docs-as-code principles.</p>
@@ -64,7 +63,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col col--2">
+              <div className="col col--3">
                 <div className="text--center padding-horiz--md">
                   <h3>👨‍💼 Resume</h3>
                   <p>Principal technical writer with extensive experience in enterprise software documentation and AI integration.</p>
@@ -73,7 +72,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col col--2">
+              <div className="col col--3">
                 <div className="text--center padding-horiz--md">
                   <h3>📝 Writing Samples</h3>
                   <p>Examples of technical documentation covering infrastructure, databases, cloud deployments, and more.</p>
@@ -82,7 +81,7 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col col--2">
+              <div className="col col--3">
                 <div className="text--center padding-horiz--md">
                   <h3>🤖 API Experiment</h3>
                   <p>API documentation based on an experimental chatbot I created with Claude AI.</p>
