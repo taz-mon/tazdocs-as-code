@@ -29,16 +29,14 @@ const sidebars = {
       label: 'My Documentation',
       items: [
         'my-docs/resume', 
-        'my-docs/writing-samples'
+        'my-docs/writing-samples',
       ],
     },
-    // Taz - Commenting these out for now since I want them hidden
-
-    // {
-    //  type: 'category',
-    //  label: 'Tutorial',
-    //  items: ['tutorial-basics/create-a-document'],
-    // },
+    {
+      type: 'category',
+      label: 'Other documentation',
+      items: ['my-docs/jvn-personality-guide']
+    },
   ],
 };
 

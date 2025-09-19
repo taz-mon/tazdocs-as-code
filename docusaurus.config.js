@@ -1,10 +1,11 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
+// `@type` JSDoc annotations allow editor autocomnpm run clearetion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -43,7 +44,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -73,6 +74,38 @@ const config = {
         },
       }),
     ],
+    // Redocusaurus config
+    [
+      'redocusaurus',
+      {
+        openapi: {
+          // Folder to scan for *.openapi.yaml files
+          path: 'openapi',
+          routeBasePath: '/api',
+        },
+        //specs: [
+         // Optionally provide individual files/urls to load
+          //{
+            // Pass it a path to a local OpenAPI YAML file
+          //id: 'jvn-chatbot',
+          //spec: 'openapi/jvn-chatbot/index.openapi.yaml',
+          //route: '/api/jvn-chatbot/',
+          //},
+          // You can also pass it an OpenAPI spec URL
+          //{
+          //  spec: 'https://redocly.github.io/redoc/openapi.yaml',
+          //  id: 'from-remote-file',
+          //  route: '/api/from-remote-file',
+          //},
+        //],
+        // Theme Options for modifying how redoc renders them
+        theme: {
+         //Change with your site colors
+         primaryColor: '#1890ff',
+         primaryColorDark: '#25c2a0', // For dark mode consistency
+        },
+      },
+    ]
   ],
 
   themeConfig:
@@ -113,6 +146,12 @@ const config = {
           //  position: 'left',
           //  label: 'Documentation',
           },
+          {
+          //changing this for now to just point to my resume
+          to: '/docs/my-docs/jvn-intro',
+          position: 'left',
+          label: 'API experiment',
+          },
           {to: '/blog', label: 'TDB-Blog', position: 'right'},
           {
             href: 'https://github.com/taz-mon/tazdocs-as-code',
@@ -136,6 +175,10 @@ const config = {
               {
                 label: 'Samples',
                 to: '/docs/my-docs/writing-samples',
+              },
+              {
+                label: 'JVN Chabot overview',
+                to: '/docs/my-docs/jvn-personality-guide',
               },
             ],
           },
