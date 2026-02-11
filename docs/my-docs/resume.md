@@ -6,8 +6,6 @@
 📧 a2z.tom@gmail.com | 📱 (978) 501-4889 | 📍 Harvard, MA  
 🔗 [linkedin.com/in/toma2z/](http://linkedin.com/in/toma2z/)
 
-Docusaurus-generated site: [https://taz-mon.github.io/tazdocs-as-code/](https://taz-mon.github.io/tazdocs-as-code/)
-
 ---
 
 ## Summary
@@ -16,7 +14,10 @@ Collaborative, research-oriented technical writer with extensive lead-writer exp
 
 **Core methodology:** Learn technology by direct implementation and testing, ensuring documentation reflects real-world developer experience rather than theoretical specifications. This hands-on approach identifies gaps between engineering intent and user reality. Very proficient in Git/GitHub content management, including merging and repairing conflicts for peers.
 
-**Seeking:** Hands-on, docs-as-code technical writer creating developer guides and API documentation using modern toolchains and collaborative workflows. Prefer companies in the MLOps infrastructure toolchain.
+Actively expanding expertise in AI/ML/MLOps technologies through hands-on exploration of LLM applications, agentic workflows, and the infrastructure underlying modern machine learning platforms.
+
+**Seeking:** Hands-on technical writer of developer-oriented guides using modern toolchains and collaborative workflows. Prefer companies with an MLOps infrastructure toolchain.
+
 
 **Key Documentation Achievements:**
 
@@ -38,11 +39,6 @@ Collaborative, research-oriented technical writer with extensive lead-writer exp
 
 * Developed JavaScript application with AI assistance and extracted comprehensive API documentation conforming to OpenAPI specifications.
 * Integrated interactive API documentation using Redocusaurus 2.5.0, enabling real-time API testing within documentation pages—an approach similar to modern developer portals that allow inline endpoint validation.
-
-### AsciiDoc Edition
-
-* Checked in a version of the resume using AsciiDoc markup instead of markdown.
-* Added an AsciiDoc plug-in into Docusaurus for seamless rendering and updated CSS with Claude Code to customize the AsciiDoc output.
 
 ---
 
@@ -92,14 +88,33 @@ Collaborative, research-oriented technical writer with extensive lead-writer exp
 
 ### AI Initiatives
 
+* Adopted an efficient AI-powered documentation creation pipeline using Loom video capture, transcript processing, and LLM-assisted drafting
+* Applied AI-assisted review processes to improve Markdown file quality and consistency
+* Create How Tos for JSON-based workflows for agentic task completion
 * Implemented AI Positron into Oxygen Editor with GPT-4 in DITA workflows for content optimization and technical accuracy validation
 * Led cross-functional initiative defining support terminology to improve AI-based search capabilities
-* Applied AI tools for workflow efficiency while maintaining documentation quality standards
-* Content structured for AI consumption: explicit specifications, precise step sequences embedded in prose
+* Structure content for AI consumption: explicit specifications, precise step sequences embedded in prose
 
 ---
 
 ## Experience
+
+### Legion Intelligence | December 2025 - Present
+
+*Technical Writer (Contract)*
+
+Sole writer working with the Mission Success team manager to create, manage, and improve existing Docs-as-Code content Help Center documents based in Docusaurus. Work includes:
+
+* Using my self-developed and efficient AI-assisted documentation workflow: capture configuration workflows via Loom videos, send process transcripts through Claude AI to generate initial drafts, then update drafts for technical accuracy. This reduces my initial draft time while maintaining high technical quality
+* Revising and standardizing content in Markdown managed in GitLab using a standard Merge Request workflow
+* Working with UI designer to standardize style and colors for screenshots with callouts
+* Creating instructional videos using Loom for knowledge transfer and training
+* Implementing proper directory structure and naming conventions to support content reuse
+* Creating a Style Guide in Confluence to establish best practices
+* Tracking work progress in Jira in the Mission Success organization
+
+Over 11 weeks, participated in 5 sprint cycles, updating existing 17 articles and creating 15 new articles.
+
 
 ### Pegasystems, Inc. | January 2016 - August 2025
 
