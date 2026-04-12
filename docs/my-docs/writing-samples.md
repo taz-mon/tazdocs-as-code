@@ -1,79 +1,100 @@
-# Writing Samples
+---
+sidebar_position: 3
+---
 
-The following examples demonstrate my technical writing experience across infrastructure configurations, security documentation, and cloud-based deployment workflows. These samples show my ability to create clear, actionable documentation for complex enterprise systems.
+# Writing samples
+
+These examples demonstrate my technical writing across docs-as-code workflows, 
+AI-assisted documentation pipelines, open-source tooling, and enterprise 
+infrastructure. Original work appears first; employer samples follow as 
+supporting context.
 
 ---
 
-## Infrastructure & Deployment Documentation
+## Docs-as-code architecture and AI-assisted pipelines
 
-### Helm-Based Kubernetes Runbooks
-Comprehensive deployment guides using both Ubuntu Linux and Microsoft PowerShell commands. These runbooks demonstrate my ability to work with code repositories and command-line interfaces to extract relevant information for end-user documentation.
+### AI-augmented documentation pipeline (Jupyter notebook)
 
-**[Pega Helm Charts Documentation](https://github.com/pegasystems/pega-helm-charts/tree/master/docs)**
+A fully executable portfolio artifact demonstrating a three-phase documentation 
+quality pipeline built on this Docusaurus site. The notebook runs LLM-as-a-judge 
+evaluation against real content using the Anthropic API, computes weighted quality 
+scores, and validates the site for agent-friendly consumption.
 
-### External Hazelcast VM Cluster Deployment
-Technical guide for deploying Hazelcast on Virtual Machine clusters using Docker commands, demonstrating writing to an audience interested in establishing authentication in encrypted communications between servers.
+Two versions available — Anthropic SDK (`claude-sonnet-4-6`) and OpenAI SDK 
+(`gpt-4o`) — demonstrating the same pipeline architecture across providers.
 
-**[Deploying external Hazelcast on a Virtual Machine cluster](https://docs.pega.com/bundle/platform-241/page/platform/deployment/externalization-of-services/deploy-hz-vm-based-cluster-overview.html#install-deploy-connect-hazelcast-service-vm-based-cluster)**
+**[View on GitHub — Anthropic version](https://github.com/taz-mon/tazdocs-as-code/blob/main/notebooks/vectorlint-pipeline-demo-anthropic.ipynb)**  
+**[View on GitHub — OpenAI version](https://github.com/taz-mon/tazdocs-as-code/blob/main/notebooks/vectorlint-pipeline-demo-openai.ipynb)**
+
+### Blog: Making documentation pipelines LLM-friendly
+
+A practitioner-voice article on what it means to treat documentation as an 
+engineering problem — covering deterministic linting, LLM-based prose review 
+with VectorLint, agent-readiness validation with `afdocs`, and the governance 
+layer that keeps AI contributor tools aligned with project standards.
+
+**[Read the post](/blog/ai-aware-doc-pipelines)**
 
 ---
 
-## Database & Data Processing Documentation
+## Open-source project documentation
 
-### Database Configuration Guides
-Detailed setup information covering multiple supported database platforms, demonstrating technical depth and cross-platform expertise.
+### VectorLint
 
+I created documentation for VectorLint to contribute to this open-source LLM-based prose linter that 
+enforces style guides using an LLM-as-a-Judge approach. My proposed docs include:
+- Quickstart and Installation How-tos
+- A tutorial for running VectorLint iterating your style rules depending on your findings 
+- Rule pack authoring for advanced style rule configuration
+- CI integration and quality scoring How-tos
+I wrote these articles in coordination with the project lead. I wrote these in MDX on Mintlify, a common toolchain at developer-tool companies.
+
+**[My proposed VectorLint documentation](https://vectorlint.mintlify.app/introduction)**
+
+---
+
+## API documentation
+
+### JVN Chatbot API
+
+End-to-end API documentation for a Node.js/Express chatbot API I built as a 
+portfolio project. Includes a full OpenAPI 3.0 specification and interactive 
+documentation integrated into this Docusaurus site via Redocusaurus 2.5.0, 
+enabling inline endpoint validation.
+
+**[API reference](/api/jvn-chatbot)**  
+**[JVN overview](/docs/my-docs/jvn-intro)**
+
+---
+
+## Enterprise infrastructure samples
+
+The following samples are from my nine years at Pegasystems documenting 
+Kubernetes deployments, database configurations, Kafka data streams, and 
+Pega Cloud security. They demonstrate scope and technical depth across 
+complex enterprise systems.
+
+Note: these links point to Pegasystems' live documentation. Content may 
+have been updated since my departure in August 2025.
+
+### Kubernetes and deployment
+
+Helm-based runbooks supporting Ubuntu Linux and PowerShell commands, 
+covering Azure AKS, AWS EKS, Google GKE, and Red Hat OpenShift deployments:  
+**[Pega Helm Charts documentation](https://github.com/pegasystems/pega-helm-charts/tree/master/docs)**
+
+Deploying external Hazelcast on a VM cluster with Docker — demonstrates 
+writing for an audience configuring encrypted inter-server authentication:  
+**[Deploying external Hazelcast on a VM cluster](https://docs.pega.com/bundle/platform-241/page/platform/deployment/externalization-of-services/deploy-hz-vm-based-cluster-overview.html#install-deploy-connect-hazelcast-service-vm-based-cluster)**
+
+### Database configuration
+
+Setup guides covering Oracle, PostgreSQL, SQL Server, and DB2:  
 **[Preparing your database for an installation](https://docs.pega.com/bundle/platform/page/platform/install/db/prepare-database-k8s.html)**
 
-### Database Requirements & Standards
-Technical specifications for naming conventions and data types supported by Pega Platform, providing clear guidelines for platform compliance.
-
-**[Requirements for creating external relational database instances](https://docs.pega.com/bundle/platform/page/platform/system-administration/database-instance-external-requirements.html)**
-
-### Primary Key Constraints Overview
-Overview article explaining Primary key constraints in Pega database tables, helping administrators understand database design principles.
-
-**[Primary key usage in Pega Platform database tables](https://docs.pega.com/bundle/platform/page/platform/system-administration/database-table-primary-key.html)**
-
-### JDBC External Database Configuration
-Step-by-step instructions for creating and updating external relational database instances with JDBC URLs.
-
+JDBC URL configuration for external relational database instances:  
 **[Creating and updating external relational database instances with JDBC URLs](https://docs.pega.com/bundle/platform/page/platform/system-administration/database-instance-jdbc-external-creating.html)**
 
----
-
-## Data Streaming & Processing
-
-### Background Processing with Kafka
-Technical guides for processing data from Java-based activities as background processes using Kafka, including comprehensive troubleshooting information.
-
-**[Understanding queue processors](https://docs.pega.com/bundle/platform/page/platform/background-processing/queue-processors-understanding.html)**
-
-**[Queue processor FAQ](https://docs.pega.com/bundle/platform/page/platform/background-processing/queue-processor-faq.html)**
-
----
-
-## Support & Troubleshooting Documentation
-
-### Proactive Support Documentation
-Created to reduce support ticket volume by explaining common log file entries that appear problematic but are actually harmless, including guidance on when support intervention is actually needed.
-
+Proactive support article written to reduce ticket volume — explains which 
+duplicate key errors are benign and when to open a ticket:  
 **[Reviewing duplicate key value errors](https://docs.pega.com/bundle/platform/page/platform/system-administration/review-duplicate-key-value-errors.html)**
-
-### System Configuration Reference
-Comprehensive collection of client-facing user settings for customizing application functionalities across a wide range of product features.
-
-**[Default dynamic system settings](https://docs.pega.com/bundle/platform/page/platform/system-administration/system-settings-dynamic-overview.html)**
-
----
-
-## Cloud & Security Documentation
-
-### Pega Cloud Networking & Security
-Technical documentation covering cloud connectivity options, secure access management, and security protocols for enterprise cloud deployments.
-
-**[Pega Cloud connectivity and access management](https://docs.pega.com/bundle/pega-cloud/page/pega-cloud/pc/pcs-connectivity-options.html)**
-
-**[Pega Cloud Secure Connect: your access to Pega Cloud](https://docs.pega.com/bundle/pega-cloud/page/pega-cloud/pc/pcs-connectivity-pega-cloud-secure-connect.html)**
-
-**[Pega Cloud Security and data protection](https://docs.pega.com/bundle/pega-cloud/page/pega-cloud/pc/pcs-security-and-data-protection.html)**
