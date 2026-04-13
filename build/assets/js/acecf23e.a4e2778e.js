@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkdocs_as_code_tutorial=globalThis.webpackChunkdocs_as_code_tutorial||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/tazdocs-as-code/blog","blogTitle":"Blog","authorsListPath":"/tazdocs-as-code/blog/authors"}')}}]);

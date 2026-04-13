@@ -1,3 +1,6 @@
 .vectorlint.ini
 VECTORLINT.md
 node_modules
+build/
+.docusaurus/
+notebooks/.ipynb_checkpoints/
