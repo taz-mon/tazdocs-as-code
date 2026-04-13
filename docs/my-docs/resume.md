@@ -1,3 +1,8 @@
+---
+title: My resume
+sidebar_label: Resume
+---
+
 # Thomas Aciukewicz
 *(Pronounced Ah-choo-KEV-itch)*
 
@@ -6,8 +11,7 @@
 📧 a2z.tom@gmail.com | 📱 (978) 501-4889 | 📍 Harvard, MA  
 🔗 [linkedin.com/in/toma2z/](http://linkedin.com/in/toma2z/)
 
-📁 Docs-as-code portfolio: [taz-mon.github.io/tazdocs-as-code/](https://taz-mon.github.io/tazdocs-as-code/)  
-📁 Doc architecture articles: [intelligent-documentation.readme.io/docs/getting-started](https://intelligent-documentation.readme.io/docs/getting-started)
+I'm also publishing this as a cloned site on Readme.com >> 📁 Doc architecture articles: [intelligent-documentation.readme.io/docs/getting-started](https://intelligent-documentation.readme.io/docs/getting-started)
 
 ---
 

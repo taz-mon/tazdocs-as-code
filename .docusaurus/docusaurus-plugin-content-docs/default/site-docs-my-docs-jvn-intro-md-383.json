@@ -1,0 +1,15 @@
+{
+  "id": "my-docs/jvn-intro",
+  "title": "API experiment",
+  "description": "The Johann von Neumann (JVN)-inspired chatbot project was a fun way to learn how to design APIs to get work done in a context that I, as a technical writer, could relate to.",
+  "source": "@site/docs/my-docs/jvn-intro.md",
+  "sourceDirName": "my-docs",
+  "slug": "/my-docs/jvn-intro",
+  "permalink": "/tazdocs-as-code/docs/my-docs/jvn-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/my-docs/jvn-intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

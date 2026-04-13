@@ -1,0 +1,75 @@
+{
+  "permalink": "/tazdocs-as-code/blog/ai-aware-doc-pipelines",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-12-ai-aware-doc-pipelines.md",
+  "source": "@site/blog/2026-04-12-ai-aware-doc-pipelines.md",
+  "title": "Thoughts about making documentation pipelines LLM friendly",
+  "description": "How an AI-aware documentation pipeline changes what quality means, what the toolchain looks like, and why most teams are still treating it as an editorial task.",
+  "date": "2026-04-12T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "documentation",
+      "permalink": "/tazdocs-as-code/blog/tags/documentation"
+    },
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/tazdocs-as-code/blog/tags/ai"
+    },
+    {
+      "inline": true,
+      "label": "pipeline",
+      "permalink": "/tazdocs-as-code/blog/tags/pipeline"
+    },
+    {
+      "inline": true,
+      "label": "VectorLint",
+      "permalink": "/tazdocs-as-code/blog/tags/vector-lint"
+    },
+    {
+      "inline": true,
+      "label": "agentic",
+      "permalink": "/tazdocs-as-code/blog/tags/agentic"
+    },
+    {
+      "inline": true,
+      "label": "llms-txt",
+      "permalink": "/tazdocs-as-code/blog/tags/llms-txt"
+    }
+  ],
+  "readingTime": 12.03,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Thomas Aciukewicz",
+      "title": "Principal Technical Writer",
+      "url": "https://linkedin.com/in/toma2z/",
+      "imageURL": "https://github.com/taz-mon.png",
+      "key": "tom",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Thoughts about making documentation pipelines LLM friendly",
+    "description": "How an AI-aware documentation pipeline changes what quality means, what the toolchain looks like, and why most teams are still treating it as an editorial task.",
+    "slug": "ai-aware-doc-pipelines",
+    "authors": [
+      "tom"
+    ],
+    "tags": [
+      "documentation",
+      "AI",
+      "pipeline",
+      "VectorLint",
+      "agentic",
+      "llms-txt"
+    ],
+    "date": "2026-04-12T00:00:00.000Z",
+    "draft": true
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Writing for agents, not just for humans anymore",
+    "permalink": "/tazdocs-as-code/blog/writing-for-agents"
+  }
+}

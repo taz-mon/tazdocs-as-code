@@ -1,5 +1,6 @@
 ---
-sidebar_position: 3
+title: Writing samples
+sidebar_label: Writing samples
 ---
 
 # Writing samples
@@ -41,13 +42,13 @@ layer that keeps AI contributor tools aligned with project standards.
 
 ### VectorLint
 
-I created documentation for VectorLint to contribute to this open-source LLM-based prose linter that 
+I created documentation for VectorLint to contribute, an open-source LLM-based prose linter that 
 enforces style guides using an LLM-as-a-Judge approach. My proposed docs include:
 - Quickstart and Installation How-tos
 - A tutorial for running VectorLint iterating your style rules depending on your findings 
 - Rule pack authoring for advanced style rule configuration
 - CI integration and quality scoring How-tos
-I wrote these articles in coordination with the project lead. I wrote these in MDX on Mintlify, a common toolchain at developer-tool companies.
+I wrote these articles in coordination with the project lead, using MDX on Mintlify, a common toolchain at developer-tool companies.
 
 **[My proposed VectorLint documentation](https://vectorlint.mintlify.app/introduction)**
 

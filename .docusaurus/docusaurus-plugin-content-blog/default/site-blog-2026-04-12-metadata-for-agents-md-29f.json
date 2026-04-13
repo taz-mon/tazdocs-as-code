@@ -1,0 +1,74 @@
+{
+  "permalink": "/tazdocs-as-code/blog/writing-for-agents",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-04-12-metadata-for-agents.md",
+  "source": "@site/blog/2026-04-12-metadata-for-agents.md",
+  "title": "Writing for agents, not just for humans anymore",
+  "description": "How technical writers develop methods for documentation's second audience — the agents and RAG pipelines that process content without reading it.",
+  "date": "2026-04-12T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "documentation",
+      "permalink": "/tazdocs-as-code/blog/tags/documentation"
+    },
+    {
+      "inline": true,
+      "label": "metadata",
+      "permalink": "/tazdocs-as-code/blog/tags/metadata"
+    },
+    {
+      "inline": true,
+      "label": "RAG",
+      "permalink": "/tazdocs-as-code/blog/tags/rag"
+    },
+    {
+      "inline": true,
+      "label": "agents",
+      "permalink": "/tazdocs-as-code/blog/tags/agents"
+    },
+    {
+      "inline": true,
+      "label": "frontmatter",
+      "permalink": "/tazdocs-as-code/blog/tags/frontmatter"
+    },
+    {
+      "inline": true,
+      "label": "agentic",
+      "permalink": "/tazdocs-as-code/blog/tags/agentic"
+    }
+  ],
+  "readingTime": 6.41,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Thomas Aciukewicz",
+      "title": "Principal Technical Writer",
+      "url": "https://linkedin.com/in/toma2z/",
+      "imageURL": "https://github.com/taz-mon.png",
+      "key": "tom",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Writing for agents, not just for humans anymore",
+    "description": "How technical writers develop methods for documentation's second audience — the agents and RAG pipelines that process content without reading it.",
+    "slug": "writing-for-agents",
+    "authors": [
+      "tom"
+    ],
+    "tags": [
+      "documentation",
+      "metadata",
+      "RAG",
+      "agents",
+      "frontmatter",
+      "agentic"
+    ],
+    "date": "2026-04-12T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Thoughts about making documentation pipelines LLM friendly",
+    "permalink": "/tazdocs-as-code/blog/ai-aware-doc-pipelines"
+  }
+}

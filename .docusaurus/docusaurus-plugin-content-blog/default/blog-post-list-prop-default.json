@@ -1,0 +1,17 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Thoughts about making documentation pipelines LLM friendly",
+      "permalink": "/tazdocs-as-code/blog/ai-aware-doc-pipelines",
+      "unlisted": false,
+      "date": "2026-04-12T00:00:00.000Z"
+    },
+    {
+      "title": "Writing for agents, not just for humans anymore",
+      "permalink": "/tazdocs-as-code/blog/writing-for-agents",
+      "unlisted": false,
+      "date": "2026-04-12T00:00:00.000Z"
+    }
+  ]
+}

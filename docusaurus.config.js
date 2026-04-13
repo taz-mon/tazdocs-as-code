@@ -152,7 +152,7 @@ const config = {
           position: 'left',
           label: 'API experiment',
           },
-          {to: '/blog', label: 'TDB-Blog', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/taz-mon/tazdocs-as-code',
             label: 'GitHub',

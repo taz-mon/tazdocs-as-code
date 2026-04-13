@@ -1,0 +1,340 @@
+{
+  "/tazdocs-as-code/__docusaurus/debug-772": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/__docusaurus/debug/config-689": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/__docusaurus/debug/content-36a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    },
+    "__props": "__props---tazdocs-as-code-docusaurus-debug-content-9-c-9-21e"
+  },
+  "/tazdocs-as-code/__docusaurus/debug/globalData-178": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/__docusaurus/debug/metadata-181": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/__docusaurus/debug/registry-48c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/__docusaurus/debug/routes-8cc": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docusaurus-debugb-38-769"
+    }
+  },
+  "/tazdocs-as-code/api/jvn-chatbot-552": {
+    "__comp": "__comp---theme-api-docf-0-a-77e",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-api-jvn-chatbotc-50-1a9"
+    },
+    "specProps": "specProps---tazdocs-as-code-api-jvn-chatbotad-1-310",
+    "layoutProps": "layoutProps---tazdocs-as-code-api-jvn-chatbot-3-fe-090"
+  },
+  "/tazdocs-as-code/blog-670": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      },
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blogab-4-37d"
+  },
+  "/tazdocs-as-code/blog/ai-aware-doc-pipelines-c25": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---tazdocs-as-code-blog-ai-aware-doc-pipelinesace-f69"
+      },
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "content": "content---tazdocs-as-code-blog-ai-aware-doc-pipelines-06-c-d15"
+  },
+  "/tazdocs-as-code/blog/archive-2e5": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "__props": "__props---tazdocs-as-code-blog-archive-324-eb6"
+  },
+  "/tazdocs-as-code/blog/authors-53d": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---tazdocs-as-code-blog-ai-aware-doc-pipelinesace-f69"
+      },
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "__props": "__props---tazdocs-as-code-blog-authorscf-6-5b3"
+  },
+  "/tazdocs-as-code/blog/tags-261": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "__props": "__props---tazdocs-as-code-blog-tags-4-cc-bef"
+  },
+  "/tazdocs-as-code/blog/tags/agentic-d6a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      },
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-agenticc-1-e-a00"
+  },
+  "/tazdocs-as-code/blog/tags/agents-1b2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-agents-834-724"
+  },
+  "/tazdocs-as-code/blog/tags/ai-574": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-aic-89-46e"
+  },
+  "/tazdocs-as-code/blog/tags/documentation-fc2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      },
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-documentationd-94-a93"
+  },
+  "/tazdocs-as-code/blog/tags/frontmatter-953": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-frontmatter-8-db-102"
+  },
+  "/tazdocs-as-code/blog/tags/llms-txt-e9e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-llms-txtea-5-726"
+  },
+  "/tazdocs-as-code/blog/tags/metadata-d47": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-metadata-768-a92"
+  },
+  "/tazdocs-as-code/blog/tags/pipeline-42d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-pipelineffe-7aa"
+  },
+  "/tazdocs-as-code/blog/tags/rag-eec": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-9-c-5-d9c"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-rag-303-db5"
+  },
+  "/tazdocs-as-code/blog/tags/vector-lint-59f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "items": [
+      {
+        "content": "content---tazdocs-as-code-blog-92-b-ffa"
+      }
+    ],
+    "__props": "__props---tazdocs-as-code-blog-tags-vector-lint-29-c-51a"
+  },
+  "/tazdocs-as-code/blog/writing-for-agents-8dc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---tazdocs-as-code-blog-ai-aware-doc-pipelinesace-f69"
+      },
+      "plugin": "plugin---tazdocs-as-code-blog-369-fe7"
+    },
+    "sidebar": "sidebar---tazdocs-as-code-blog-814-745",
+    "content": "content---tazdocs-as-code-blog-writing-for-agents-29-f-040"
+  },
+  "/tazdocs-as-code/markdown-page-87e": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-markdown-pagea-74-3a0"
+    },
+    "content": "content---tazdocs-as-code-markdown-page-393-9ac"
+  },
+  "/tazdocs-as-code/docs-65c": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-docsaba-96a"
+    }
+  },
+  "/tazdocs-as-code/docs-3a2": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---tazdocs-as-code-docsaf-2-34a"
+  },
+  "/tazdocs-as-code/docs-9b2": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/tazdocs-as-code/docs/intro-9d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-intro-0-e-3-a50"
+  },
+  "/tazdocs-as-code/docs/my-docs/how-i-work-dd4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-my-docs-how-i-work-8-dc-5d4"
+  },
+  "/tazdocs-as-code/docs/my-docs/jvn-intro-bfe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-my-docs-jvn-intro-383-e67"
+  },
+  "/tazdocs-as-code/docs/my-docs/jvn-personality-guide-343": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-my-docs-jvn-personality-guide-23-a-b0d"
+  },
+  "/tazdocs-as-code/docs/my-docs/resume-07e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-my-docs-resumef-93-c87"
+  },
+  "/tazdocs-as-code/docs/my-docs/writing-samples-636": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-my-docs-writing-samples-3-c-3-865"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/congratulations-f1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-congratulations-822-91e"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/create-a-blog-post-599": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-create-a-blog-post-533-d30"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/create-a-document-9ab": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-create-a-document-1-e-4-0b2"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/create-a-page-786": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-create-a-page-5-c-8-af0"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/deploy-your-site-f4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-deploy-your-sitef-55-304"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/lint-setup-722": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-lint-setupef-0-e86"
+  },
+  "/tazdocs-as-code/docs/tutorial-basics/markdown-features-d70": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-basics-markdown-features-18-c-4f3"
+  },
+  "/tazdocs-as-code/docs/tutorial-extras/manage-docs-versions-ec4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-extras-manage-docs-versionsdff-9e5"
+  },
+  "/tazdocs-as-code/docs/tutorial-extras/translate-your-site-c4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tazdocs-as-code-docs-tutorial-extras-translate-your-sitee-44-a90"
+  },
+  "/tazdocs-as-code/-40d": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---tazdocs-as-code-markdown-pagea-74-3a0"
+    },
+    "config": "config---tazdocs-as-code-5-e-9-238"
+  }
+}

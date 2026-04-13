@@ -5,6 +5,7 @@ slug: ai-aware-doc-pipelines
 authors: [tom]
 tags: [documentation, AI, pipeline, VectorLint, agentic, llms-txt]
 date: 2026-04-12
+draft: true
 ---
 
 I spent the better part of a sprint recently building a CI/CD pipeline whose only job is to review documentation. Not code. Not infrastructure. Documentation.
