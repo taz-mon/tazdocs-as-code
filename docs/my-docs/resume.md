@@ -11,7 +11,8 @@ sidebar_label: Resume
 📧 a2z.tom@gmail.com | 📱 (978) 501-4889 | 📍 Harvard, MA  
 🔗 [linkedin.com/in/toma2z/](http://linkedin.com/in/toma2z/)
 
-I'm also publishing this as a cloned site on Readme.com >> 📁 Doc architecture articles: [intelligent-documentation.readme.io/docs/getting-started](https://intelligent-documentation.readme.io/docs/getting-started)
+I'm also publishing as an cloned site on Readme.com >>
+📁 Doc architecture articles: [intelligent-documentation.readme.io/docs/getting-started](https://intelligent-documentation.readme.io/docs/getting-started)
 
 ---
 
