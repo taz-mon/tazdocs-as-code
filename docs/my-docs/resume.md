@@ -1,3 +1,8 @@
+---
+title: My resume
+sidebar_label: Resume
+---
+
 # Thomas Aciukewicz
 *(Pronounced Ah-choo-KEV-itch)*
 

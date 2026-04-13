@@ -28,7 +28,8 @@ const sidebars = {
       type: "category",
       label: 'My Documentation',
       items: [
-        'my-docs/resume', 
+        'my-docs/resume',
+        'my-docs/how-i-work',
         'my-docs/writing-samples',
       ],
     },
