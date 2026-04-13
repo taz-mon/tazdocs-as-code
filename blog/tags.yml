@@ -17,3 +17,27 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+documentation:
+  label: Documentation
+  permalink: /documentation
+
+metadata:
+  label: Metadata
+  permalink: /metadata
+
+RAG:
+  label: RAG
+  permalink: /rag
+
+agents:
+  label: Agents
+  permalink: /agents
+
+frontmatter:
+  label: Frontmatter
+  permalink: /frontmatter
+
+agentic:
+  label: Agentic
+  permalink: /agentic  
