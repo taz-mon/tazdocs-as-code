@@ -27,14 +27,15 @@ Two versions available — Anthropic SDK (`claude-sonnet-4-6`) and OpenAI SDK
 **[View on GitHub — Anthropic version](https://github.com/taz-mon/tazdocs-as-code/blob/main/notebooks/vectorlint-pipeline-demo-anthropic.ipynb)**  
 **[View on GitHub — OpenAI version](https://github.com/taz-mon/tazdocs-as-code/blob/main/notebooks/vectorlint-pipeline-demo-openai.ipynb)**
 
-### Blog: Making documentation pipelines LLM-friendly
+### Blog: Writing for agents, not just for humans anymore
 
-A practitioner-voice article on what it means to treat documentation as an 
-engineering problem — covering deterministic linting, LLM-based prose review 
-with VectorLint, agent-readiness validation with `afdocs`, and the governance 
-layer that keeps AI contributor tools aligned with project standards.
+A practitioner-voice article on what it means to write documentation for a new 
+audience — the RAG pipelines and coding agents that process content 
+without reading it. Covers frontmatter schema design as a retrieval engineering 
+decision, with citations to Dachary Carey's agent skill analysis and the 
+Agent-Friendly Documentation Spec.
 
-**[Read the post](/blog/ai-aware-doc-pipelines)**
+**[Read the post](/blog/writing-for-agents)**
 
 ---
 
