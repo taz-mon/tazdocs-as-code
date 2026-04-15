@@ -97,6 +97,3 @@ Setup guides covering Oracle, PostgreSQL, SQL Server, and DB2:
 JDBC URL configuration for external relational database instances:  
 **[Creating and updating external relational database instances with JDBC URLs](https://docs.pega.com/bundle/platform/page/platform/system-administration/database-instance-jdbc-external-creating.html)**
 
-Proactive support article written to reduce ticket volume — explains which 
-duplicate key errors are benign and when to open a ticket:  
-**[Reviewing duplicate key value errors](https://docs.pega.com/bundle/platform/page/platform/system-administration/review-duplicate-key-value-errors.html)**
