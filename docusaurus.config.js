@@ -153,7 +153,7 @@ const config = {
           },
           {
           //changing this for now to just point to my resume
-          to: '/docs/my-docs/jvn-intro',
+          to: '/api/jvn-chatbot',
           position: 'left',
           label: 'API experiment',
           },

@@ -2,9 +2,13 @@
 
 The JVN Chatbot API implements a gamified interaction system where users earn tokens by engaging JVN (Johann von Neumann) in various activities, then spend those tokens to ask questions and receive responses. JVN's personality becomes more demanding over time, creating strategic gameplay around when and how to interact.
 
-### [JVN Chatbot API (1.0.0)](/api/jvn-chatbot)
+## Review the Open API spec
 
-## Using the JVN API
+Click to see the **[JVN Chatbot Open API spec (1.0.0)](/api/jvn-chatbot)**
+
+## An SDK for using the JVN API
+
+To understand more about how the JVN Chatbot demands your tokens review the next sections.
 
 1. Earn tokens through inspiration activities (`POST /inspire/*`)
 2. Check available tokens via `GET /chatbot/status` 
