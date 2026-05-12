@@ -37,6 +37,16 @@ Agent-Friendly Documentation Spec.
 
 **[Read the post](/blog/writing-for-agents)**
 
+### Writing sample submitted for Kubernetes reference document
+
+The team asked prospective writers to write about several `kubectl` options that would help diagnose common deployment issues. The document is supposed to be part of a set of **Troubleshooting** articles. I present code samples using a minikube cluster I deployed on my Linux laptop. 
+
+Following their Style Guide, I used title case for the headings and provided external links to mainstream Kubernetes documentation.
+
+**[Pod Inspection and Troubleshooting with kubectl](./k8s-kubectl-assignment.md)**
+
+This is my documentation sweetspot, going between systems I am using and creating documentation that helps users.
+
 ---
 
 ## Open-source project documentation
