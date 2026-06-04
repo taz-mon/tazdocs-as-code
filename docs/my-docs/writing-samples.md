@@ -37,6 +37,15 @@ Agent-Friendly Documentation Spec.
 
 **[Read the post](/blog/writing-for-agents)**
 
+### Writing project for a job application 
+
+A Docusaurus documentation site covering a few articles for GemStone/S 64 Bit, an object-oriented transactional database platform with a 40-year production history in financial services, government, and healthcare. 
+
+Built as a docs-as-code portfolio project: articles researched from primary GemTalk Systems source documentation, authored in Markdown, organized by audience and task type. I deploy it automatically to GitHub Pages using a GitHub Actions workflow designed to grow with additional validation steps.
+
+**[View the site](https://taz-mon.github.io/gemstone-service-docs/)**   
+**[View the source repo](https://github.com/taz-mon/gemstone-service-docs)**
+
 ### Writing sample submitted for Kubernetes reference document
 
 The team asked prospective writers to write about several `kubectl` options that would help diagnose common deployment issues. The document is supposed to be part of a set of **Troubleshooting** articles. I present code samples using a minikube cluster I deployed on my Linux laptop. 

@@ -11,7 +11,7 @@ Technical writing has always evolved to meet new constraints. We learned informa
 
 The current shift is this: documentation now has a second audience that processes it instead of reading it. And the methods that serve this audience start with frontmatter.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## The second audience
 

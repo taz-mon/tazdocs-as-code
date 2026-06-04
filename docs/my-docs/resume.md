@@ -9,7 +9,7 @@ sidebar_label: Resume
 **Principal technical writer/Experienced content collaborator**
 
 📧 a2z.tom@gmail.com | 📱 (978) 501-4889 | 📍 Harvard, MA  
-🔗 [linkedin.com/in/toma2z/](http://linkedin.com/in/toma2z/)
+🔗 [LinkedIn profile](http://linkedin.com/in/toma2z/) | 💻 [My Github projects ](http://github.com/taz-mon)
 
 I'm also publishing this on Readme.com >>
 📁 Doc architecture articles: [intelligent-documentation.readme.io/docs/getting-started](https://intelligent-documentation.readme.io/docs/getting-started)
@@ -18,13 +18,13 @@ I'm also publishing this on Readme.com >>
 
 ## Summary
 
-Collaborative, research-oriented principal technical writer with extensive lead-writer experience owning documentation end-to-end across enterprise B2B SaaS platforms, cloud infrastructure, and developer-facing integrations. Proven track record partnering with engineering and product teams to build documentation that scales alongside the product, not behind it.
+Collaborative, research-oriented principal technical writer with extensive lead-writer experience owning documentation end-to-end across enterprise B2B SaaS platforms, cloud infrastructure, and developer-facing integrations. Proven track record of working independently while also partnering with engineering and product teams to build documentation that scales alongside the product. Specialist in docs-as-code workflows, DITA, style guide development, and cross-functional content strategy.
 
 **Core methodology:** Learn technology by direct implementation and testing. This ensures documentation reflects real-world user experiences, especially the nuanced details. A hands-on approach consistently surfaces gaps between engineering intent and user reality; the result is content that users have a happy path to follow and support incidents are minimized.
 
 **Key contributions:**
 
-* Designed and implemented an AI-assisted documentation pipeline at Legion Intelligence: capturing workflows via Loom video, processing transcripts through Claude to generate structured drafts, then validating for technical accuracy before publication — reducing draft time while maintaining quality
+* Designed and implemented an AI-assisted documentation pipeline at Legion Intelligence: capturing workflows via Loom video, processing transcripts through Claude to generate structured drafts, then validating for technical accuracy before publication, reducing draft time while maintaining quality standards
 * Built a Style Guide in Confluence and wired its standards into an LLM proofreading prompt for automated validation before content check-in; built a Jupyter notebook demonstrating a CI-style LLM quality gate with a weighted scoring rubric and pass/warn/fail output for agent-readiness validation using readily available open source tools
 * Authored integration guides and cloud connectivity documentation at Pegasystems, writing for Pega Cloud customers connecting external AWS and GCP environments to enterprise SaaS platforms
 * Applied information architecture principles to create Kubernetes deployment documentation (AKS, EKS, GKE, OpenShift); personally deployed Docker images to verify content
@@ -35,23 +35,23 @@ Collaborative, research-oriented principal technical writer with extensive lead-
 
 ## Core Competencies
 
-**Developer Documentation & Docs-as-Code** Git/GitLab/GitHub PR and MR workflows (branch management, merge conflict resolution, peer reviews, build integrity), Markdown and YAML authoring, static site generators (Docusaurus, Mintlify), GitHub Actions for automated builds, OpenAPI/Swagger, Redocusaurus, Postman, VS Code, Linux and PowerShell CLI, AsciiDoc
+**Developer Documentation and Docs-as-Code** Git/GitLab/GitHub PR and MR workflows (branch management, merge conflict resolution, peer reviews, build integrity), Markdown and YAML authoring, static site generators (Docusaurus, Mintlify), GitHub Actions for automated builds, OpenAPI/Swagger, Redocusaurus, Postman, VS Code, Linux and PowerShell CLI, AsciiDoc
 
-**Documentation Architecture & Governance** Information structure, content models, style governance, terminology management, AI quality controls, structured content for AI agent consumption, modular content design, glossary management, search optimization
+**Documentation Architecture and Governance** Information structure, content models, style governance, terminology management, AI quality controls, structured content for AI agent consumption, modular content design, glossary management, search optimization
 
 **AI-Enabled Documentation Workflows** AI-assisted draft pipelines (Loom → Claude → accuracy review), LLM-integrated proofreading, Jupyter notebook-based quality gate with weighted rubric and CI-style pass/warn/fail output, prompt engineering for documentation workflows, AI Positron/GPT-4 in DITA workflows
 
-**API & Integration Documentation** REST APIs, OpenAPI specifications, Redocusaurus interactive API docs, Swagger, endpoint validation with Postman, token-based authentication
+**API and Integration Documentation** REST APIs, OpenAPI specifications, Redocusaurus interactive API docs, Swagger, endpoint validation with Postman, token-based authentication
 
-**Platform & Enterprise SaaS Documentation** Deployment workflows, Helm chart documentation, Kafka data stream procedures, database integration content, UI-based configuration guides, cloud connectivity documentation
+**Platform and Enterprise SaaS Documentation** Deployment workflows, Helm chart documentation, Kafka data stream procedures, database integration content, UI-based configuration guides, cloud connectivity documentation
 
 **Multi-Audience Content** Technical administrators, developers, end-users — structured content using variables and metadata for context-specific delivery
 
-**Cloud & Infrastructure** Kubernetes, Docker, Azure (AKS), AWS (EKS), Google Cloud (GKE), Red Hat OpenShift, Helm, Istio service mesh
+**Cloud and Infrastructure** Kubernetes, Docker, Azure (AKS), AWS (EKS), Google Cloud (GKE), Red Hat OpenShift, Helm, Istio service mesh
 
 **Structured Authoring Tools** Oxygen XML Editor (DITA with AI Positron/GPT-4), MadCap Flare, FrameMaker, Confluence, Docusaurus, Mintlify, ReadMe.com
 
-**Agile & Cross-Functional Collaboration** Sprint planning and closure, Jira tracking, sprint artifact management, SME interviews, peer review leadership, mentoring, global distributed team experience (India, Poland, US)
+**Agile and Cross-Functional Collaboration** Sprint planning and closure, Jira tracking, sprint artifact management, SME interviews, peer review leadership, mentoring, global distributed team experience (India, Poland, US)
 
 ---
 
@@ -96,17 +96,28 @@ Sole writer embedded with the Mission Success team at an AI/ML intelligence plat
 
 Lead feature writer collaborating with engineering, product, and design stakeholders across a global team in India, Poland, and the US:
 
-* Authored cloud connectivity documentation, writing for Pega Cloud customers connecting external AWS and GCP environments to Pega's enterprise SaaS platform
-* Created Kubernetes deployment runbooks (AKS, EKS, GKE, OpenShift) by personally completing each deployment to verify accuracy before publication
-* Authored developer-focused configuration guides, Helm chart documentation, Kafka data stream procedures, and database integration content
-* Reviewed engineering's Helm chart documentation changes in GitHub PRs to enforce writing standards across client-facing content
-* Structured documentation for AI agent consumption: explicit specifications, precise step sequences, and modular content components designed for programmatic processing
-* Led a cross-functional initiative to define high-level support terminology for the entire company, improving AI-based search accuracy across the support ecosystem
-* Used customer feedback and support tickets to identify documentation gaps and prioritize improvements across multiple release cycles
-* Informally served as Scrum Master on documentation sprints: opened and closed sprints, tracked artifacts in Jira, and facilitated cross-team communication across distributed time zones
-* Mentored junior writers through peer reviews and one-on-one interactions; contributed documentation standards to the internal style guide
-* Conducted competitive analysis of enterprise documentation patterns and proposed structural standards adopted across the writing team
-* Proactively helped resolve documentation build issues; this effort became a multi-writer build-integrity review process still in use
+Documentation Strategy and Style Guide Development
+Led company-wide initiative to define support terminology, improving AI-based search accuracy across platform documentation and establishing a shared vocabulary across product lines
+Established documentation standards for cloud infrastructure content, ensuring consistency in multi-audience delivery (administrators, developers, operations teams)
+Mentored interns and junior writers using peer reviews and one-on-one guidance on DITA writing nuances, information architecture, and technical accuracy verification
+
+* Cloud and Infrastructure Leadership
+    * Created deployment runbooks for Kubernetes across AKS, EKS, GKE, and OpenShift by personally executing each deployment to verify accuracy before publication
+    * Documented multi-cloud connectivity strategies for enterprise customers, including AWS PrivateLink, GCP Cloud Peering, zero-trust architecture patterns, and hybrid cloud integration for on-premises workload connectivity
+    * Authored Helm chart documentation and cloud connectivity procedures for SaaS customers integrating external AWS and GCP environments
+    * Reviewed and enforced writing standards in Helm chart pull requests, ensuring client-facing documentation in GitHub repos met Pega's technical writing standards
+* Release and Process Management
+    * Managed documentation across multiple minor release cycles, coordinating with Engineering and Product to ensure installation, upgrade, patch, and hotfix documentation stayed aligned with product development timelines
+    * Proactively helped resolve documentation build issues, establishing a multi-writer build-integrity review process now used by the team
+    * Used support ticket analysis and customer feedback to identify documentation gaps and prioritize improvements across release cycles
+* Cross-Functional Collaboration
+    * Collaborated with UX designers in Figma to review and refine UI strings; incorporated final UI states as annotated screenshots into documentation
+    * Worked with cloud engineers to document options for integrating Pega Cloud with cloud-based and enterprise solutions
+    * Partnered with Customer Success team to reduce support burden by creating targeted documentation addressing common customer pain points
+* Technical Documentation
+    * Authored database integration procedures for Oracle, PostgreSQL, and SQL Server including JDBC URL configuration
+    * Documented Kafka data stream processing, real-time data extraction workflows, and system administration configuration articles
+    * Logged into systems and wrote articles describing account management tasks for a subscriber-based software product, ensuring documentation accuracy through hands-on verification
 
 ---
 
@@ -139,7 +150,7 @@ Volunteered as a contributor for VectorLint, an open-source LLM-as-a-Judge prose
 
 **Kubernetes: Service Mesh with Istio**, LinkedIn Learning (2025) — Ambient mode deployment, traffic management, mTLS, Kiali/Grafana/Jaeger observability
 
-**REST API Design, Development & Management**, Udemy (2025) — [Certificate](https://www.udemy.com/certificate/UC-6414bcd0-d098-48df-9b97-744657e894f5/) — REST APIs, Swagger, security basics
+**REST API Design, Development and Management**, Udemy (2025) — [Certificate](https://www.udemy.com/certificate/UC-6414bcd0-d098-48df-9b97-744657e894f5/) — REST APIs, Swagger, security basics
 
 **Learn OAuth 2.0**, Udemy (2025) — [Certificate](https://www.udemy.com/certificate/UC-3dd2ab2b-428b-4eac-b912-db5527f33787/) — Authentication and authorization protocols
 
@@ -149,6 +160,11 @@ Volunteered as a contributor for VectorLint, an open-source LLM-as-a-Judge prose
 
 ## Academic Degrees
 
-**M.S., Food Science** — University of Massachusetts, Amherst (1995)  
-**M.A., English Literature** — University of New Hampshire, Durham (1987)  
-**B.S., Chemistry** — Ithaca College, Ithaca, NY (1985)
+**M.S., Food Science** — University of Massachusetts, Amherst  
+**M.A., English Literature** — University of New Hampshire, Durham  
+**B.S., Chemistry** — Ithaca College, Ithaca, NY
+
+## Non-documentation interests
+
+* Baking sourdough bread  
+* Researching alternative energy sources for home heating and electricity  
