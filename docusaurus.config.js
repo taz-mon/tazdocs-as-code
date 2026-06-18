@@ -134,30 +134,32 @@ const config = {
       // end of Taz addition
       // Taz new nav bar
       navbar: {
-        title: 'My Technical Documentation',
+        title: 'Writing Laboratory',
         logo: {
           alt: 'Taz Docs Logo',
           src: 'img/logo.svg',
         },
         items: [
-         {
-          //changing this for now to just point to my resume
-          to: '/docs/my-docs/resume',
-          position: 'left',
-          label: 'Resume and writing samples',
-
-          //  type: 'docSidebar',
-          //  sidebarId: 'tutorialSidebar',
-          //  position: 'left',
-          //  label: 'Documentation',
+          {
+            to: '/docs/my-docs/resume',
+            position: 'left',
+            label: 'Resume',
           },
           {
-          //changing this for now to just point to my resume
-          to: '/api/jvn-chatbot',
-          position: 'left',
-          label: 'API experiment',
+            to: '/docs/my-docs/writing-samples',
+            position: 'left',
+            label: 'Writing Samples',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {
+            to: '/api/jvn-chatbot',
+            position: 'left',
+            label: 'API Experiment',
+          },
+          {
+            to: '/blog',
+            position: 'left',
+            label: 'Blog',
+          },
           {
             href: 'https://github.com/taz-mon/tazdocs-as-code',
             label: 'GitHub',

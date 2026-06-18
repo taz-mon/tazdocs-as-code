@@ -30,13 +30,25 @@ const sidebars = {
       items: [
         'my-docs/resume',
         'my-docs/how-i-work',
-        'my-docs/writing-samples',
+        {
+          type: 'category',
+          label: 'Writing samples',
+          link: {
+            type: 'doc',
+            id: 'my-docs/writing-samples',
+          },
+          items: [
+            'my-docs/site-reorg-docusaurus',
+            'my-docs/dita-poc',
+            'my-docs/kubctl-reference',
+            'my-docs/jvn-intro',
+            'my-docs/jvn-personality-guide',
+            'my-docs/readme-content-example',
+            'my-docs/vectorlint-work',
+            'my-docs/saas-infra-examples',
+          ],
+        },
       ],
-    },
-    {
-      type: 'category',
-      label: 'Other documentation',
-      items: ['my-docs/jvn-personality-guide']
     },
   ],
 };
