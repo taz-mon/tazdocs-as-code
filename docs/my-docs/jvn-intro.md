@@ -1,11 +1,24 @@
-# API experiment
+# JVN Chatbot API: a documentation case study
 
-The Johann von Neumann (JVN)-inspired chatbot project was a fun way to learn how to design APIs to get work done in a context that I, as a technical writer, could relate to.
+This project demonstrates end-to-end API documentation: designing a working API, writing its OpenAPI specification, and publishing that specification as a styled reference inside a docs-as-code pipeline.
 
-I imagined several transactions that a brilliant but cranky chatbot might create in response to getting bored with poeple's questinos. I worked with Claude AI anto make a solid Javascript application. Then I worked with Claude to extract the API documentation into an OpenAPI specification format.
+**What this shows**: I designed the JVN Chatbot API's behavior, built a working Node.js and Express backend for it, then wrote the OpenAPI 3.0 specification by hand against that running code rather than generating it speculatively. I used Redocusaurus to publish the spec as a branded API reference inside this Docusaurus site, matching the fonts and color system used across the rest of my documentation.
 
-As long as the API documentation meets OpenAPI standards, you can use Redocusuarus in your existing Docusaurus project to generate nicely formatted API documentation. To do this, you install Redocusaurus locally and then expose a Redocusaurus preset that calls the API configuration file within the Docusaurus configuration. I set the formatting of the API documentation to use the custom fonts I use in my Docusaurus project. To learn about Redocusaurus, see [Redocusaurus](https://redocusaurus.vercel.app/docs/). 
+I learned a how to realistically document an API from state to finish, not one that I get from an engineering team: one with state, multiple endpoints, error conditions, and behavior that changes based on usage history, rather than a flat CRUD example. My documentation from this project includes:
 
-To see the JVN chatbot API documentation, click [JVN Chatbot API (1.0.0)](/api/jvn-chatbot). 
+- **[The API reference](/api/jvn-chatbot)** — This is the published OpenAPI specification, including every endpoint, request and response schema, and example payloads.
+- **[Read my design notes](/docs/my-docs/jvn-personality-guide)** — This explores JVN's mood states, token economy, and birthday reset mechanic work, written for someone integrating against the API.
 
-To learn about how we designed the JVN chatbot to work using API-based transactions, see [Understanding JVN: Personality and Game Mechanics](/docs/my-docs/jvn-personality-guide).
+## The API for a chatbot persona
+
+JVN (Johann von Neumann) is an application that mimics chatbot persona you interact with using an API. JVN gets pickier the more questions you ask him. You earn tokens by completing inspiration activities, then spend tokens asking JVN questions. The longer a session runs without keeping JVN entertained, the more tokens each question costs.
+
+## Why I built it this way
+
+Most portfolio API docs are written against someone else's spec or a hypothetical service. I wanted to document something I had to design first, so the documentation had to account for real edge cases (no tokens available, invalid input, server errors) instead of an idealized happy path.
+
+I worked with Claude to scaffold the Express application, then worked with Claude again to extract an accurate OpenAPI specification from the running code. Writing the spec after the implementation, instead of before it, meant every example response in the documentation matches what the API actually returns.
+
+## Publishing pipeline
+
+The OpenAPI specification is authored in the [jvn-chatbot-api repository](https://github.com/taz-mon/jvn-chatbot-api), alongside the Express application it documents, then copied into this site to publish. The API reference is generated with [Redocusaurus](https://redocusaurus.vercel.app/docs/), which renders an OpenAPI 3.0 file as a styled reference page inside an existing Docusaurus site. The setup has three parts: install Redocusaurus as a plugin, point its configuration at the OpenAPI YAML file, and theme the output to match the surrounding site rather than Redoc's defaults.

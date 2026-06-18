@@ -180,6 +180,96 @@ h2::before {
   background: var(--patriots-navy) !important;
   border: 1px solid var(--patriots-silver);
   border-radius: var(--ifm-global-border-radius);
+  color: #e8eef5; /* Light base text so untokenized characters stay readable */
+}
+
+/* Token colors tuned for contrast against the navy background.
+   Without this, Prism falls back to its light-theme token palette,
+   which is too dark to read against #002244. */
+.prism-code .token.comment,
+.prism-code .token.prolog,
+.prism-code .token.doctype,
+.prism-code .token.cdata {
+  color: #8fa3bf; /* Muted blue-gray, still legible on navy */
+  font-style: italic;
+}
+
+.prism-code .token.punctuation {
+  color: #c5d1e0;
+}
+
+.prism-code .token.property,
+.prism-code .token.tag,
+.prism-code .token.boolean,
+.prism-code .token.number,
+.prism-code .token.constant,
+.prism-code .token.symbol {
+  color: #6ab0f2; /* Lightened primary blue */
+}
+
+.prism-code .token.selector,
+.prism-code .token.attr-name,
+.prism-code .token.string,
+.prism-code .token.char,
+.prism-code .token.builtin {
+  color: #5ce0c6; /* Brightened Mercedes teal */
+}
+
+.prism-code .token.operator,
+.prism-code .token.entity,
+.prism-code .token.url,
+.prism-code .language-css .token.string,
+.prism-code .style .token.string {
+  color: #e8eef5;
+}
+
+.prism-code .token.atrule,
+.prism-code .token.attr-value,
+.prism-code .token.keyword {
+  color: #ffb84d; /* Brightened McLaren orange */
+}
+
+.prism-code .token.function,
+.prism-code .token.class-name {
+  color: #ff9eb5; /* Softened red, distinct from keyword orange */
+}
+
+.prism-code .token.regex,
+.prism-code .token.important,
+.prism-code .token.variable {
+  color: #ffb84d;
+}
+
+/* Line numbers and highlighted lines need their own contrast pass */
+.prism-code .token-line {
+  color: #e8eef5;
+}
+
+/* Shell, bash, and plain-text code blocks are transcripts, not semantic code.
+   Prism's bash grammar still assigns token classes to things like command
+   output and "Key: value" lines (treating them as comments, properties, or
+   punctuation), which pulls them onto the muted colors meant for actual
+   comments. Override every token inside these languages to one flat,
+   high-contrast color so transcript output never goes dim. */
+.prism-code[class*="language-shell"] .token,
+.prism-code[class*="language-bash"] .token,
+.prism-code[class*="language-sh"] .token,
+.prism-code[class*="language-console"] .token,
+.prism-code[class*="language-text"] .token {
+  color: #e8eef5 !important;
+  font-style: normal !important;
+}
+
+/* Within those languages, still let the actual command name read as
+   slightly emphasized so a multi-line transcript stays scannable. */
+.prism-code[class*="language-shell"] .token.function,
+.prism-code[class*="language-bash"] .token.function,
+.prism-code[class*="language-sh"] .token.function {
+  color: #6ab0f2 !important;
+}
+
+.theme-code-block-highlighted-line {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Inline code - Mercedes technical precision */

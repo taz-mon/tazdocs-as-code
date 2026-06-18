@@ -3,17 +3,28 @@ info:
   title: JVN Chatbot API
   version: 1.0.0
   description: |
-    Johann von Neumann Chatbot API - A gamified chatbot system where users earn tokens by inspiring JVN through various activities, then spend those tokens to ask questions and receive mathematical wisdom.
-    
-    ## Core Concepts
-    
-    **Token Economy**: Users earn tokens (1-10 per activity) by successfully inspiring JVN. One token = 5 questions.
-    
-    **Mood System**: JVN's mood affects his responses and becomes pickier over time (goes from pleased to analytical to demanding to insufferable).
-    
-    **Birthday Celebrations**: Every 1000 interactions triggers a birthday mode with special rewards and easier token earning.
-    
-    **Philosophy Engine**: JVN occasionally shares mathematical wisdom based on his current mood and interaction count.
+    > **This is a sample API spec, not a live API.** The production server below does not exist; requests sent through the "Try it" feature will fail with a network error. Use the example responses in each endpoint to see what the API would return.
+
+    The JVN Chatbot API is a portfolio project that documents a working Node.js and Express backend for a gamified chatbot. Johann von Neumann (JVN) is a cranky, brilliant chatbot persona who rewards users with tokens for keeping him entertained, then spends those tokens answering questions, getting pickier the longer a session runs.
+
+    This spec exists to show how a technical writer approaches API documentation: clear request and response examples, documented error states, and a structure a developer can build against without reading the source first.
+
+    ## How to use this sample
+
+    1. Browse the endpoints in the left sidebar, grouped by tag (inspiration, chatbot, chat, debug).
+    2. Open an endpoint to read its description, parameters, and example payloads.
+    3. Scroll to the response examples to see what a real call would return, for example `POST /inspire/fresh-air` shows both a successful and failed inspiration attempt.
+    4. To try the full request and response cycle locally instead of through "Try it," clone the [source repository](https://github.com/taz-mon/jvn-chatbot-api) and run the server on `localhost:3000`.
+
+    ## Core concepts
+
+    **Token economy**: Users earn tokens (1 to 10 per activity) by successfully inspiring JVN. One token covers 5 questions.
+
+    **Mood system**: JVN's mood affects his responses and grows pickier over time, moving from pleased to analytical to demanding to insufferable.
+
+    **Birthday celebrations**: Every 1,000 inspiration interactions (not questions) triggers a birthday mode with special rewards and easier token earning.
+
+    **Philosophy engine**: JVN occasionally shares mathematical wisdom based on his current mood and interaction count.
 
   contact:
     name: API Support
@@ -25,9 +36,9 @@ info:
 
 servers:
   - url: http://localhost:3000
-    description: Development server
+    description: Local development server (run the source repo to use this)
   - url: https://api.jvn-chatbot.com
-    description: Production server
+    description: Illustrative production URL only, this domain is not live
 
 tags:
   - name: inspiration
