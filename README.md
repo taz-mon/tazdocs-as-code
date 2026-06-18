@@ -4,7 +4,7 @@
 
 # The Taz docs-as-code laboratory
 
-#### A technical writing portfolio built as a working docs-as-code site: resume, writing samples, and an OpenAPI reference, all authored in Markdown and deployed automatically through GitHub Actions.
+#### A technical writing portfolio built as a working docs-as-code site: Resume, writing samples, and an OpenAPI reference, all authored in Markdown and deployed automatically through GitHub Actions.
 
 ---
 
@@ -98,7 +98,7 @@ tazdocs-as-code/
 
 ## Why Docusaurus
 
-Docusaurus gave me three things I wanted in a portfolio: Markdown-first authoring so content stays plain and versionable, a built-in sidebar/category system so the writing samples could grow without manual navigation upkeep, and first-class support for an OpenAPI reference through the Redocusaurus plugin, so the JVN Chatbot API documentation lives in the same site rather than a separate tool.
+Docusaurus gave me three things I wanted in a portfolio: Markdown-first authoring so content stays plain and versioned, a built-in sidebar/category system so the writing samples could grow without manual navigation upkeep, and first-class support for an OpenAPI reference through the Redocusaurus plugin, so the JVN Chatbot API documentation lives in the same site rather than a separate tool.
 
 ## Deployment
 
@@ -135,15 +135,21 @@ Like the deploy workflows on my other portfolio repos, this keeps build and depl
 
 The workflow also sets `concurrency` with `cancel-in-progress: false`, so if a push happens while a deployment is already running, the new run queues instead of racing the in-progress one, and any in-flight production deployment is always allowed to finish.
 
+### Local quality checks
+
+Commits to this repo run through a Vale prose linter pre-commit hook that checks all staged Markdown files for spelling errors before allowing a commit through. Vale runs check-only, and I have it set to not modifies files. If it finds an error it prints the file path and line number and blocks the commit until the issue is fixed.
+
+The hook uses a custom vocabulary at `lint-styles/config/vocabularies/TazDocs/accept.txt` to allow listed technical terms (Docusaurus, DITA, Kubernetes, and others) or personal words that a standard English dictionary flags as unknown words.
+
 ### Adding validations to the workflow
 
-The workflow is intentionally minimal. As the site grows, additional validation steps can be inserted between the build step and the Pages upload. Candidates include:
+The CI workflow is intentionally minimal. Additional validation steps can be inserted between the build step and the Pages upload:
 
-| Validation | Tool | Insert after |
-| --- | --- | --- |
-| Broken link checking | `docusaurus-plugin-check-links` | `npm run build` |
-| Markdown lint | `markdownlint-cli` | `npm ci` |
-| Spelling check | `cspell` | `npm ci` |
+| Validation | Tool | Insert after | Status |
+| --- | --- | --- | --- |
+| Broken link checking | `docusaurus-plugin-check-links` | `npm run build` | Planned |
+| Markdown lint | `markdownlint-cli` | `npm ci` | Planned |
+| Spelling and style errors | Vale | `npm ci` | Local hook active |
 
 One validation is already built in without any extra tooling: `docusaurus.config.js` sets `onBrokenLinks: 'throw'`, so a broken doc reference anywhere in the sidebar fails the `npm run build` step outright rather than shipping a dead link.
 
@@ -162,7 +168,7 @@ Live URL: `https://taz-mon.github.io/tazdocs-as-code/`
 
 ## Author
 
-**Tom "Taz" Aciukewicz** — Principal Technical Writer with experience documenting complex enterprise software, cloud infrastructure, and developer platforms.
+**Tom "Taz" Aciukewicz:** Principal Technical Writer with experience documenting complex enterprise software, cloud infrastructure, and developer platforms.
 
 - GitHub: [@taz-mon](https://github.com/taz-mon)
 - LinkedIn: [linkedin.com/in/toma2z](https://linkedin.com/in/toma2z/)
